@@ -1,7 +1,12 @@
 import React from "react";
 
+const service = "Service";
+const alertId = "ID";
+const serviceGroup = "Group";
+const AssignedTo = "Assigned to";
+
 const HelloBootstrap = () => (
- <div class="container card col-sm-3">
+  <div class="container card col-sm-3">
     <div class="row">
       <div class="mx-auto card-body ">
         <div class="d-inline p-2 bg-primary text-white">{service}</div>{" "}
